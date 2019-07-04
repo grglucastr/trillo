@@ -199,7 +199,6 @@
   }
 }
 
-
 /////////////////////////
 // LEGAL TEXT
 .legal{
@@ -207,4 +206,18 @@
   color: var(--grey-light-4);
   text-align: center;
   padding: 2.5rem;
+}
+
+/////////////////////////
+// GALLERY
+.gallery{
+
+  display: flex;
+  
+  &__photo{
+    width: 100%;
+    display: block;
+
+  }
+
 }
